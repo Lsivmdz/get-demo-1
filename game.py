@@ -6,7 +6,7 @@ import random
 #猜錯，提示答案
 #題目
 
-x=random.randint(1,50)
+x=random.randint(1,100)
 print(x)
 for i in range(5):
     y=int(input('請猜數字(1~50):'))    
